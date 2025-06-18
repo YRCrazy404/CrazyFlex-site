@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrazyFlex | Feedback</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #1a1a2e;
+      --card: #292a3e;
+      --text: #f0f0f0;
+      --highlight: #5c5bee;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg);
+      font-family: 'Poppins', sans-serif;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title {
+      font-size: 36px;
+      font-weight: 600;
+      margin: 30px 0;
+      background: var(--highlight);
+      padding: 15px 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      text-align: center;
+    }
+
+    .form-container {
+      background-color: var(--card);
+      padding: 30px 40px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+      max-width: 600px;
+      width: 90%;
+      margin-bottom: 40px;
+    }
+
+    .form-container form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label {
+      margin-bottom: 8px;
+      font-weight: 500;
+    }
+
+    input, textarea {
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      background-color: #1e1e2e;
+      color: white;
+    }
+
+    input:focus, textarea:focus {
+      outline: 2px solid var(--highlight);
+    }
+
+    button {
+      padding: 12px;
+      font-size: 16px;
+      background-color: var(--highlight);
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #4b4ae3;
+    }
+
+    .back-link {
+      margin: 20px 0;
+      font-size: 16px;
+      color: #999;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      color: var(--highlight);
+    }
+
+    @media (max-width: 600px) {
+      .title {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="banner"></div>
+
+  <div class="title">FEEDBACK & SUGGESTIONS</div>
+
+  <div class="form-container">
+    <form action="#" method="POST">
+      <label for="name">Your Name</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+      <label for="email">Your Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="message">Your Message</label>
+      <textarea id="message" name="message" rows="5" placeholder="Write your feedback..." required></textarea>
+
+      <button type="submit">Submit Feedback</button>
+    </form>
+  </div>
+
+  <a class="back-link" href="index.html"
+
+</body>
+</html>

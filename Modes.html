@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCPE Mods | CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: #ffffff;
+      color: #111111;
+    }
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/08/minecraft-4.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .logo-text {
+      font-size: 36px;
+      font-weight: 600;
+      color: white;
+      background: rgba(0, 0, 0, 0);
+      padding: 10px 20px;
+      border-radius: 12px;
+    }
+    .section-title {
+      font-size: 32px;
+      text-align: center;
+      margin: 30px 0 20px;
+    }
+    .mods-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .mod-card {
+      background-color: #4a47a3;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .dark-mode .mod-card {
+      background-color: #f0f0f0;
+      color: #111;
+    }
+    .mod-card:hover {
+      transform: scale(1.03);
+    }
+    .mod-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .mod-card-content {
+      padding: 15px;
+    }
+    .mod-card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    .mod-card p {
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .mod-card span {
+      font-size: 12px;
+      display: block;
+      margin-bottom: 10px;
+      color: #999;
+    }
+    .mod-card a {
+      text-decoration: none;
+      padding: 8px 14px;
+      background: #2c2c44;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .dark-mode .mod-card a {
+      background: #007b94;
+      color: white;
+    }
+    #darkModeToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 8px 16px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .dark-mode #darkModeToggle {
+      background: #ddd;
+      color: #111;
+    }
+  </style>
+</head>
+<body>
+  <button id="darkModeToggle">Toggle Dark Mode</button>
+  <header>
+    <div class="logo-text">CrazyFlex • MCPE MODS</div>
+  </header>
+  <h2 class="section-title">Popular MCPE MODS</h2>
+<div style="text-align:center; margin: 20px;">
+  <input type="text" id="searchInput" placeholder="Search mods..." 
+         style="padding: 10px; width: 80%; max-width: 400px; border-radius: 10px; border: none; font-size: 16px;" />
+</div>
+ <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+ <script>
+   AOS.init();
+   document.getElementById('darkModeToggle').addEventListener('click', () => {
+     document.body.classList.toggle('dark-mode');
+   });
+  document.addEventListener('DOMContentLoaded', function () {
+     const searchInput = document.getElementById('searchInput');
+     const cards = document.querySelectorAll('.mod-card');
+
+     searchInput.addEventListener('input', function () {
+       const filter = searchInput.value.toLowerCase();
+       cards.forEach(card => {
+         const text = card.innerText.toLowerCase();
+         card.style.display = text.includes(filter) ? 'block' : 'none';
+       });
+     });
+   });
+ </script>
+  <div class="mods-container">
+
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://play-lh.googleusercontent.com/k07ePaaju5NBuDMVKMruorBSPmuGpI5Zzo-ODRPhwJ39WzLKvfhgCspJoQViH1Q7vg=w526-h296-rw" alt="Furniture Addon Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Furniture Addon</h3>
+        <p>Add realistic furniture to decorate your MCPE builds!</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://i.ytimg.com/vi/7jdJGlqlb6M/maxresdefault.jpg" alt="Vehicles Mod Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Vehicles Mod</h3>
+        <p>Drive cars, bikes, and more with this awesome vehicles mod!</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2waklDzf-VQntKSvLLQISewOmGECs5Xaf2A&s" alt="Weapons Expansion Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Weapons Expansion</h3>
+        <p>Get access to new swords, bows, and explosive weapons!</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=Realistic+Shaders" alt="Realistic Shaders Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Realistic Shaders</h3>
+        <p>Enhance your visuals with smooth lighting and realistic shadows.</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=Animal+Expansion" alt="Animal Expansion Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Animal Expansion</h3>
+        <p>Add over 30 new animals to your Minecraft world.</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=UI+Crafting+Enhancer" alt="UI Crafting Enhancer Thumbnail" />
+      <div class="mod-card-content">
+        <h3>UI Crafting Enhancer</h3>
+        <p>Improves your inventory and crafting interface for better usability.</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=Magic+Spells+Addon" alt="Magic Spells Addon Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Magic Spells Addon</h3>
+        <p>Cast spells and learn magical abilities in MCPE!</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=Skyblock+Survival" alt="Skyblock Survival Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Skyblock Survival</h3>
+        <p>A full-featured skyblock survival map and addon.</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=FNAF+Addon" alt="FNAF Addon Thumbnail" />
+      <div class="mod-card-content">
+        <h3>FNAF Addon</h3>
+        <p>Add characters and jumpscares from Five Nights at Freddy's.</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+    <div class="mod-card" data-aos="fade-up">
+      <img src="https://via.placeholder.com/300x200?text=Lucky+Block+Mod" alt="Lucky Block Mod Thumbnail" />
+      <div class="mod-card-content">
+        <h3>Lucky Block Mod</h3>
+        <p>Break lucky blocks for random rewards or disasters!</p>
+        <span>MCPE 1.20+</span>
+        <a href="#" target="_blank">[Download Soon]</a>
+      </div>
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.getElementById('darkModeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>

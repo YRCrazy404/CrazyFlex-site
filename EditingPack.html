@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrazyFlex Editing Pack</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f9f9f9;
+      --text: #2c2b3d;
+      --link: #0066cc;
+      --section: #ffffff;
+      --highlight: #5c5bee;
+    }
+
+    body.dark {
+      --bg: #262638;
+      --text: #f0f0f0;
+      --link: #66aaff;
+      --section: #2c2c44;
+      --highlight: #4a47a3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background-color 0.6s, color 0.6s;
+      padding: 20px;
+      opacity: 0;
+      animation: bodyFade 1s ease forwards;
+    }
+
+    header {
+      background-color: var(--highlight);
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      border-radius: 10px;
+      margin-bottom: 30px;
+      animation: slideInTop 0.8s ease-out;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .section {
+      background-color: var(--section);
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+      animation: fadeIn 1.3s ease;
+    }
+
+    .section h2 {
+      color: var(--highlight);
+      margin-bottom: 15px;
+    }
+
+    .section p {
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .section ul {
+      margin-top: 10px;
+      padding-left: 20px;
+    }
+
+    .section li {
+      margin-bottom: 8px;
+    }
+
+    .toggle-btn {
+      display: block;
+      margin: 30px auto 10px;
+      padding: 10px 25px;
+      background-color: var(--highlight);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.3s;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .toggle-btn:hover {
+      transform: scale(1.05);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @keyframes bodyFade {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideInTop {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CrazyFlex Editing Pack</h1>
+    <p>Download high-quality editing resources for your videos 🎬</p>
+  </header>
+
+  <div class="section">
+    <h2>What’s Inside?</h2>
+    <p>
+      This pack includes cool overlays, transitions, effects, fonts, and music I personally use in my videos! It’s beginner-friendly and works with CapCut, KineMaster, VN, and other popular mobile editing apps.
+    </p>
+    <ul>
+      <li>🔥 Velocity & Shake Presets</li>
+      <li>🎵 Background Music & Sound Effects</li>
+      <li>✨ Flash & Glow Effects</li>
+      <li>🖋️ Stylish Fonts</li>
+      <li>🧩 PNG Overlays</li>
+    </ul>
+    <br />
+    <p>📥 <a href="#">Click Here to Download       <strong>[Coming Soon]</strong>  </a></p>
+  </div>
+  
+  <script>
+    if (localStorage.getItem("theme") === "dark") {
+      document.body.classList.add("dark");
+    }
+
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+      localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
+    }
+  </script>
+
+</body>
+</html>

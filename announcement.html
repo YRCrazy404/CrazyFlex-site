@@ -1,0 +1,132 @@
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Updates | CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 10px;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background-color: #262638;
+      color: #ffffff;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .banner {
+      background-color: #4a47a3;
+      padding: 2rem 2rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 600;
+      color: #fff;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+      border-radius: 15px 15px 15px 15px;
+    }
+
+    .banner a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    h1 {
+      font-size: 1.8rem;
+      margin: 2rem 0 1rem;
+      text-align: center;
+      color: #aab2ff;
+    }
+
+    .updates-container {
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 0 1.5rem 2rem;
+    }
+
+    .update-card {
+      background-color: #2c2c44;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      animation: slideIn 0.5s ease forwards;
+      border-left: 4px solid #4a47a3;
+    }
+
+    .update-card h2 {
+      font-size: 1.2rem;
+      color: #4a47a3;
+      margin-bottom: 0.5rem;
+    }
+
+    .update-card p {
+      color: #ccc;
+      line-height: 1.6;
+      font-size: 0.95rem;
+    }
+
+    .timestamp {
+      margin-top: 0.6rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideIn {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      .banner {
+        font-size: 1.5rem;
+        padding: 1rem;
+      }
+
+      h1 {
+        font-size: 1.4rem;
+      }
+
+      .update-card {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <a href="index.html">🔥 CrazyFlex  •  Updates 🔥</a>
+  </div>
+
+  <h1>📢 Announcements 📢</h1>
+
+  <div class="updates-container">
+    <div class="update-card">
+      <h2>🎬 New Editing Pack Released!</h2>
+      <p>The new VFX Pack is live on the Editing Pack page! Check it out and level up your edits.</p>
+      <div class="timestamp">May 29, 2025</div>
+    </div>
+
+    <div class="update-card">
+      <h2>📺 All Videos Page Added</h2>
+      <p>You can now explore every CrazyFlex video with thumbnails and links — updated automatically!</p>
+      <div class="timestamp">May 30, 2025</div>
+    </div>
+
+    <div class="update-card">
+      <h2>🧠 MCPE Facts Page Coming Soon</h2>
+      <p>A brand-new page full of cool Minecraft Pocket Edition facts is in the works. Stay tuned!</p>
+      <div class="timestamp">May 31, 2025</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #181818;
+      --text: #f0f0f0;
+      --link: #66aaff;
+      --sidebar: #1a1a2e;
+      --highlight: #3939f7;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background-color: var(--bg);
+      color: var(--text);
+      opacity: 0;
+      animation: bodyFade 0.8s ease forwards;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: var(--sidebar);
+      color: white;
+      padding: 30px 20px;
+      position: fixed;
+      height: 100vh;
+      animation: slideIn 0.7s ease-out;
+      overflow-y: auto;
+    }
+
+    .sidebar img {
+      width: 60px;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      transition: transform 0.3s;
+    }
+
+    .sidebar img:hover {
+      transform: scale(1.1) rotate(5deg);
+    }
+
+    .sidebar h2 {
+      font-size: 26px;
+      margin-bottom: 40px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin: 15px 0;
+      padding: 10px;
+      border-radius: 8px;
+      transition: all 0.3s;
+    }
+
+    .sidebar a:hover,
+    .sidebar a.active {
+      background-color: var(--highlight);
+      color: #fff;
+      padding-left: 15px;
+    }
+
+    .more-menu {
+      position: relative;
+    }
+
+    .more-dropdown {
+      display: none;
+      background-color: var(--sidebar);
+      border-radius: 10px;
+      margin-top: 10px;
+      padding: 10px;
+      animation: fadeIn 0.3s ease;
+    }
+
+    .more-dropdown a {
+      display: block;
+      margin: 10px 0;
+      font-size: 14px;
+      padding: 8px;
+      border-radius: 6px;
+      color: white;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+
+    .more-dropdown a:hover {
+      background-color: var(--highlight);
+      padding-left: 12px;
+    }
+
+    .main-content {
+      margin-left: 250px;
+      flex-grow: 1;
+      background-color: var(--bg);
+    }
+
+    .header {
+      background-image: url('https://realms.b-cdn.net/plans/plans-hero-bg.webp');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      position: relative;
+      animation: fadeIn 1s ease;
+    }
+
+    .header h1 {
+      font-size: 48px;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    .header p {
+      font-size: 18px;
+      color: #e0e0e0;
+    }
+
+    .content {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 40px 30px;
+      gap: 30px;
+      justify-content: center;
+      align-items: center;
+      animation: fadeIn 1s ease;
+    }
+
+    .content img {
+      width: 100%;
+      max-width: 650px;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .description {
+      max-width: 5000px;
+    }
+
+    .description h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .description p {
+      font-size: 20px;
+      line-height: 1.8;
+    }
+
+    .description a {
+      display: inline-block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    .description a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        position: static;
+        width: 100%;
+        height: auto;
+      }
+
+      .main-content {
+        margin-left: 0;
+      }
+
+      .content {
+        flex-direction: column;
+        padding: 20px;
+      }
+
+      .header h1 {
+        font-size: 36px;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-30px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes bodyFade {
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/minecraft-creeper-face.jpg" alt="Logo" />
+    <h2>CrazyFlex</h2>
+    <a href="#" class="active">FLEX WITH STYLE</a>
+    <a href="youtube-infos.html">YOUTUBE INFOS</a>
+    <a href="EditingPack.html">EDITING PACK</a>
+    <a href="Minecraftfacts.html">MCPE Facts</a>
+    <a href="Modes.html">MCPE MODS</a>
+
+    <div class="more-menu">
+      <a href="javascript:void(0);" onclick="toggleMoreMenu()">MORE</a>
+      <div class="more-dropdown" id="moreDropdown">
+        <a href="More.html">Videos</a>
+        <a href="Social Media.html">Social Media</a>
+        <a href="Feedback.html">Feedback</a>
+        <a href="Announcement.html">Announcements</a>
+        <a href="RoadMap.html">Live SUBS</a>
+        <a href="minigames.html">GameZone</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <div class="header">
+      <h1>CRAZY ✕ FLEX</h1>
+      <p>Explore • Create • Flex With CrazyFlex</p>
+    </div>
+
+    <div class="content">
+      <img src="https://wallpapers.com/images/high/minecraft-aesthetic-greenery-sunny-day-zxc6rc1z2k9b9s41.webp" alt="Minecraft Screenshot" />
+      <div class="description">
+        <h2>About CrazyFlex</h2>
+        <p>
+          <!-- Your About Text Here -->
+                Hey there! My name is Pratham, and I'm from Punjab, India. I’m the creator of CrazyFlex, a fun and exciting space where I share my love for Minecraft with the world.
+
+I’ve been playing Minecraft for years now, and it’s more than just a game to me — it’s a place where I can build anything I imagine, explore amazing worlds, and create content that entertains and inspires others. Whether I’m building a huge castle, finding cool redstone tricks, or discovering secret Minecraft facts, I love every second of it.
+
+Through CrazyFlex, I’ve found a way to connect with other Minecraft lovers like you. I try to keep things fun, creative, and helpful. I upload a minimum of 4 videos every month, and I put my full effort into each one. My content includes short videos, Minecraft facts, MCPE tricks, editing packs, and cool builds. I also like to include my community in the journey, so feel free to comment and be a part of it!
+
+What makes CrazyFlex different is the energy, style, and care I put into each video. My goal isn’t just to show you how to build something — it’s to make you smile, teach you something new, or inspire you to jump back into the game with new ideas. I believe Minecraft is a game where everyone can be creative in their own way, and I want to encourage that in every viewer.
+
+I also love editing videos — it’s something I enjoy just as much as playing the game. You’ll see that in how my videos are made: fast-paced, exciting, clean, and full of personality. I believe that even short clips should feel fun to watch and well-made.
+
+Since I’m from Punjab, I also bring a bit of my own culture, language, and personality into the channel. I want people to feel like they’re watching a friend play Minecraft — someone real, someone passionate, and someone who’s just having a good time. I think that’s what makes YouTube so special.
+
+If you’re someone who enjoys Minecraft, whether you play Java or MCPE, or if you’re just looking for some cool tips, awesome facts, or fun content to brighten your day — you’ll find all of that here at CrazyFlex.
+
+So, if you haven’t already, check out my videos, subscribe to the channel, and become a part of the CrazyFlex community. Let’s build, explore, and flex our Minecraft skills together.
+
+Thanks for stopping by — and keep crafting! 💚
+
+— Pratham (CrazyFlex)
+          <!-- Truncated for brevity -->
+        </p>
+        <a href="https://www.youtube.com/@CrazyFlex404" target="_blank">👉 Visit My YouTube Channel</a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMoreMenu() {
+      const dropdown = document.getElementById("moreDropdown");
+      dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+    }
+
+    document.addEventListener("click", function (e) {
+      const menu = document.getElementById("moreDropdown");
+      if (!e.target.closest(".more-menu")) {
+        menu.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>

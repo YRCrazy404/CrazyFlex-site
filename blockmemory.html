@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Block Match - CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #111;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 20px 0 10px;
+      font-size: 2.5rem;
+      color: #fffff;
+      text-shadow: 0 0 2px #ffffff;
+    }
+
+body {
+    margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/11/minecraft-mountains-2.jpg'); 
+  background-size: 1280px 900px;
+  background-repeat: repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+   }
+
+    .game-container {
+      display: grid;
+      grid-template-columns: repeat(4, 100px);
+      grid-gap: 15px;
+      justify-content: center;
+      margin: 20px auto;
+    }
+
+    .card {
+      width: 100px;
+      height: 100px;
+      background-color: #1e1e1e;
+      border: 2px solid #6f42c1;
+      border-radius: 12px;
+      position: relative;
+      cursor: pointer;
+      transform-style: preserve-3d;
+      transition: transform 0.5s;
+    }
+
+    .card.flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card .front, .card .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 10px;
+    }
+
+    .card .front {
+      background: #2e2e2e;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+    }
+
+    .card .back {
+      transform: rotateY(180deg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .btn {
+      background: #6f42c1;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Poppins', sans-serif;
+      box-shadow: 0 0 10px #6f42c1;
+      margin-top: 20px;
+    }
+
+    .btn:hover {
+      background: #824bdb;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>FLIP THE CARD</h1>
+  <div class="game-container" id="game"></div>
+  <button class="btn" onclick="startGame()">🔁 Restart Game</button>
+
+  <script>
+    const blocks = [
+ "https://minecraft.wiki/images/Grass_Block_JE7_BE6.png",
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ab/Diamond_JE3_BE3.png",
+      "https://minecraft.wiki/images/TNT_JE3_BE2.png",
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/05/Structure_Block_JE2_BE1.png",
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/41/Ender_Chest_%28S%29_JE2_BE2.png",
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d6/Blast_Furnace_%28S%29_BE1.png",
+      "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/13/Crafter_JE3.png",
+      "https://minecraft.wiki/images/Crafting_Table_JE4_BE3.png"
+    ];
+
+    let gameGrid = [];
+    let firstCard = null;
+    let secondCard = null;
+    let lockBoard = false;
+
+    const gameContainer = document.getElementById("game");
+
+    function shuffle(array) {
+      return array.sort(() => Math.random() - 0.5);
+    }
+
+    function createCard(img) {
+      const card = document.createElement("div");
+      card.classList.add("card");
+
+      const front = document.createElement("div");
+      front.classList.add("front");
+      front.textContent = "🎴";
+
+      const back = document.createElement("div");
+      back.classList.add("back");
+      back.style.backgroundImage = `url(${img})`;
+
+      card.appendChild(front);
+      card.appendChild(back);
+      card.dataset.img = img;
+
+      card.addEventListener("click", () => flipCard(card));
+
+      return card;
+    }
+
+    function startGame() {
+      gameContainer.innerHTML = "";
+      gameGrid = shuffle([...blocks, ...blocks]);
+      firstCard = null;
+      secondCard = null;
+      lockBoard = false;
+
+      gameGrid.forEach(img => {
+        const card = createCard(img);
+        gameContainer.appendChild(card);
+      });
+    }
+
+    function flipCard(card) {
+      if (lockBoard || card.classList.contains("flipped") || card === firstCard) return;
+
+      card.classList.add("flipped");
+
+      if (!firstCard) {
+        firstCard = card;
+        return;
+      }
+
+      secondCard = card;
+      lockBoard = true;
+
+      if (firstCard.dataset.img === secondCard.dataset.img) {
+        setTimeout(() => {
+          firstCard.style.visibility = "hidden";
+          secondCard.style.visibility = "hidden";
+          resetBoard();
+        }, 500);
+      } else {
+        setTimeout(() => {
+          firstCard.classList.remove("flipped");
+          secondCard.classList.remove("flipped");
+          resetBoard();
+        }, 800);
+      }
+    }
+
+    function resetBoard() {
+      [firstCard, secondCard] = [null, null];
+      lockBoard = false;
+    }
+
+    window.onload = startGame;
+  </script>
+
+</body>
+</html>

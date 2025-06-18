@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MCPE Facts | CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <style>
+    * {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: white;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .dark-mode {
+      background-color: #ffffff;
+      color: #111111;
+    }
+    header {
+      background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.wallpapersden.com/image/download/minecraft-dungeons-2021_bG1mbmiUmZqaraWkpJRmbmdlrWZlbWU.jpg') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .logo-text {
+      font-size: 36px;
+      font-weight: 600;
+      margin: 30px 0;
+      color: white;
+      background: rgba(0, 0, 0, 0);
+      padding: 10px 20px;
+      border-radius: 12px;
+    }
+    .section-title {
+      font-size: 32px;
+      margin: 30px 0;
+      text-align: center;
+
+    }
+    .facts-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 20px;
+      padding: 0 20px 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-radius: 16px;
+    }
+    .fact-card {
+      background-color: #4a47a3;
+      padding: 20px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
+    }
+    .dark-mode .fact-card {
+      background-color: #e5e5e6;
+      color: #29293e;
+    }
+    .fact-card:hover {
+      transform: scale(1.03);
+    }
+    .fact-card h3 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    #darkModeToggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      padding: 8px 16px;
+      background: #333;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      z-index: 999;
+    }
+    .dark-mode #darkModeToggle {
+      background: #29293e;
+      color: #29293e;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo-text">CrazyFlex X Mincraft</div>
+  </header>
+  <h2 class="section-title">Facts</h2>
+  <div class="facts-container">
+
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>1. Creepers Were a Mistake</h3>
+      <p>The creeper was created by accident when a pig's model was incorrectly coded!</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>2. Beds Explode in the Nether</h3>
+      <p>Trying to sleep in the Nether or End will cause a huge explosion. It's a handy trap!</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>3. Enderman Speak English</h3>
+      <p>Enderman sounds are distorted recordings of English phrases like “Hi” and “What’s up.”</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>4. Slimes Only Spawn Below Y=40</h3>
+      <p>Slimes are picky. In normal worlds, they spawn below Y=40 and in slime chunks only!</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>5. You Can Wear Pumpkins</h3>
+      <p>Wearing a carved pumpkin on your head prevents Endermen from getting angry at you.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>6. Ghasts Are Voice-Acted by a Cat</h3>
+      <p>The ghast sound effects were made by a sleeping cat's sounds.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>7. Raining Fish</h3>
+      <p>In Minecraft, you can use a bucket of tropical fish to create aquariums, or let fish 'rain' by dropping them from high.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>8. Snow Golems Leave Trails</h3>
+      <p>Snow golems leave a trail of snow in cold biomes.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>9. Skeletons Burn in Daylight</h3>
+      <p>Skeletons catch fire and burn in direct sunlight.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>10. You Can Milk a Mooshroom</h3>
+      <p>Mooshrooms can be milked with a bowl to get mushroom stew.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>11. You Can Name a Sheep 'jeb_'</h3>
+      <p>Naming a sheep 'jeb_' with a name tag will make it cycle through rainbow colors.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>12. Iron Golems Offer Poppies</h3>
+      <p>Iron Golems sometimes offer poppies to villagers, a reference to peaceful gestures.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>13. Witches Heal Themselves</h3>
+      <p>Witches can drink potions to heal themselves during fights.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>14. You Can Name a Mob 'Dinnerbone'</h3>
+      <p>Naming any mob 'Dinnerbone' or 'Grumm' flips them upside down.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>15. Mushroom Biomes Don't Spawn Hostiles</h3>
+      <p>Hostile mobs don’t naturally spawn in mushroom biomes.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>16. Pandas Can Be Lazy</h3>
+      <p>Pandas have different personalities, including lazy, playful, and aggressive.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>17. Cows Have Been in Minecraft Forever</h3>
+      <p>Cows have existed in Minecraft since version 0.0.14a.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>18. Bats Serve No Purpose</h3>
+      <p>Bats in Minecraft don’t drop loot or serve any real purpose—just ambiance.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>19. Turtles Lay Eggs at Home</h3>
+      <p>Turtles always return to the beach where they hatched to lay eggs.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>20. Bees Can Pollinate Crops</h3>
+      <p>Bees help speed up crop growth by pollinating them.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>21. Villagers Gossip</h3>
+      <p>Villagers share gossip and information, which affects iron golem spawning.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>22. You Can Get Poisoned by Pufferfish</h3>
+      <p>Eating a pufferfish gives you nausea, poison, and hunger.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>23. Zombies Can Convert Villagers</h3>
+      <p>Zombies can turn villagers into zombie villagers.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>24. Zombie Pigmen Are Now Zombified Piglins</h3>
+      <p>They were renamed after Nether updates.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>25. Withers Drop Nether Stars</h3>
+      <p>Defeating the Wither is the only way to get a Nether Star.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>26. You Can Use a Compass on a Lodestone</h3>
+      <p>This will make the compass point to the Lodestone.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>27. Snowballs Hurt Blazes</h3>
+      <p>Blazes are weak against snowballs.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>28. Parrots Dance Near Jukeboxes</h3>
+      <p>Parrots will dance if a jukebox is playing nearby.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>29. Ravagers Are Scared of Banners</h3>
+      <p>They take damage from banners during raids.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>30. You Can Trade With Piglins</h3>
+      <p>Throwing gold at Piglins allows you to barter.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>31. You Can Walk on Powder Snow with Leather Boots</h3>
+      <p>Only leather boots prevent you from falling through.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>32. Fishing Has Treasure and Junk Loot Tables</h3>
+      <p>Fishing can get you books, name tags, and junk.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>33. You Can Cook Food on a Campfire</h3>
+      <p>Campfires can cook up to 4 food items without fuel.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>34. Foxes Steal Items</h3>
+      <p>Foxes can spawn with or pick up items in their mouth.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>35. Pillagers Can Pick Up Banners</h3>
+      <p>Pillagers can carry ominous banners in raids.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>36. You Can Place Water in the Nether (With Commands)</h3>
+      <p>Water normally evaporates in the Nether.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>37. Slime Blocks Reduce Fall Damage</h3>
+      <p>Slime blocks reduce fall damage and let you bounce.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>38. Honey Blocks Stick to Entities</h3>
+      <p>They slow movement and can stick mobs and players.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>39. You Can Use Leads on Boats</h3>
+      <p>Leads can pull boats in Bedrock Edition.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>40. Glow Squids Don't Glow</h3>
+      <p>Glow squids emit no light—they just look like they do.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>41. Axolotls Play Dead</h3>
+      <p>Axolotls play dead to regenerate health.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>42. Copper Blocks Oxidize Over Time</h3>
+      <p>Copper changes color when exposed to air.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>43. Lightning Turns Villagers Into Witches</h3>
+      <p>A lightning strike can convert a villager into a witch.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>44. Goats Can Knock You Off Cliffs</h3>
+      <p>Goats can randomly ram players.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>45. Spyglass Lets You Zoom In</h3>
+      <p>You can zoom in with a spyglass to see faraway objects.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>46. You Can Build a Redstone Computer</h3>
+      <p>Minecraft redstone is powerful enough to simulate a computer.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>47. Minecraft Was Created in 6 Days</h3>
+      <p>The first version of Minecraft was coded in less than a week.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>48. Steve’s Full Name Is Steve?</h3>
+      <p>The default player name is just Steve—no last name confirmed.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>49. Warden Is Blind</h3>
+      <p>The Warden tracks players via sound and vibrations.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>50. Mangrove Trees Grow in Mud</h3>
+      <p>They grow in swampy areas and need mud to plant.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>51. You Can Use Banners as Shields</h3>
+      <p>Put banners on shields for decoration.</p>
+    </div>
+    
+    <div class="fact-card" data-aos="fade-up" data-aos-duration="800">
+      <h3>52. Sniffer Is an Ancient Mob</h3>
+      <p>Sniffers were added from a mob vote and sniff ancient seeds.</p>
+    </div>
+    
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    document.getElementById('darkModeToggle').addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
+    });
+  </script>
+</body>
+</html>
