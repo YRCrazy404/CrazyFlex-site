@@ -1,0 +1,5502 @@
+[
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Desert",
+      "Ice Plains",
+      "Taiga",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Hoe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Coal",
+      "Diamond",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Enderman",
+      "Blaze",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Pickaxe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Lapis",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "8 Cobblestone",
+      "4 Cobblestone",
+      "9 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Ghast",
+      "Enderman",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Swamp",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Axe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Diamond",
+      "Iron",
+      "Lapis",
+      "Emerald"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Blaze",
+      "Ghast",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Savanna",
+      "Swamp",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Coal",
+      "Iron",
+      "Redstone",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "8 Cobblestone",
+      "9 Cobblestone",
+      "6 Cobblestone",
+      "4 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Creeper",
+      "Spider",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Desert",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Pickaxe",
+      "Sword",
+      "Shovel",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Redstone",
+      "Iron",
+      "Coal",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Ghast",
+      "Wither",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Swamp",
+      "Savanna",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Sword",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Gold",
+      "Redstone",
+      "Coal",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Sticks",
+      "4 Wooden Planks",
+      "2 Logs"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Zombie Villager",
+      "Pillager",
+      "Villager",
+      "Witch"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Taiga",
+      "Desert",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Shovel",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Redstone",
+      "Coal",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "2 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Blaze",
+      "Enderman",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Forest",
+      "Desert",
+      "Ice Plains",
+      "Taiga"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Redstone",
+      "Coal",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "4 Wooden Planks",
+      "3 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Zombie",
+      "Creeper",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Iron",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "6 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Wither",
+      "Enderman",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Shovel",
+      "Hoe",
+      "Axe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Redstone",
+      "Coal",
+      "Gold",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Pillager",
+      "Villager",
+      "Witch",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Snowy Tundra",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Hoe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Diamond Ore",
+      "Gold Ore",
+      "Emerald Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Zombie",
+      "Creeper",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Desert",
+      "Forest",
+      "Taiga"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Hoe",
+      "Sword",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Gold",
+      "Iron",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "2 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Zombie Villager",
+      "Villager",
+      "Witch",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Plains",
+      "Jungle",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Coal",
+      "Redstone",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Wooden Planks",
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Wither",
+      "Enderman",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Plains",
+      "Jungle",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Hoe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Gold",
+      "Redstone",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 3 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Coal",
+      "Redstone",
+      "Lapis",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "4 Wooden Planks",
+      "3 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Zombie Villager",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Desert",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Pickaxe",
+      "Axe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Lapis",
+      "Redstone",
+      "Coal",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Spider",
+      "Skeleton",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Plains",
+      "Jungle",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Pickaxe",
+      "Shovel",
+      "Axe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Wither",
+      "Ghast",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Jungle",
+      "Plains",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Diamond Ore",
+      "Lapis Ore",
+      "Gold Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "2 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Jungle",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Lapis",
+      "Iron",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone",
+      "4 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Pillager",
+      "Zombie Villager",
+      "Witch"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Jungle",
+      "Desert",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Lapis",
+      "Iron",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Ghast",
+      "Blaze",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Plains",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Hoe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Redstone",
+      "Gold",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Blaze",
+      "Ghast",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Snowy Tundra",
+      "Desert",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Pickaxe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Lapis",
+      "Redstone",
+      "Diamond",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Enderman",
+      "Blaze",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Pickaxe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Creeper",
+      "Spider",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Taiga",
+      "Desert",
+      "Forest",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Hoe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Diamond Ore",
+      "Lapis Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Pillager",
+      "Villager",
+      "Witch",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Snowy Tundra",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Diamond",
+      "Iron",
+      "Emerald",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Spider",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Taiga",
+      "Forest",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Sword",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Pillager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Sword",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Coal",
+      "Lapis",
+      "Diamond",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "9 Cobblestone",
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Zombie",
+      "Skeleton",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Plains",
+      "Desert",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Axe",
+      "Hoe",
+      "Shovel",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Diamond Ore",
+      "Gold Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Snowy Tundra",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Gold Ore",
+      "Emerald Ore",
+      "Diamond Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Wither",
+      "Enderman",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Hoe",
+      "Pickaxe",
+      "Sword",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Diamond",
+      "Emerald",
+      "Iron",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Blaze",
+      "Ghast",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Desert",
+      "Taiga",
+      "Forest",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Shovel",
+      "Hoe",
+      "Axe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Coal",
+      "Redstone",
+      "Diamond",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Creeper",
+      "Spider",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Desert",
+      "Ice Plains",
+      "Taiga",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Pickaxe",
+      "Shovel",
+      "Axe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Lapis",
+      "Diamond",
+      "Emerald"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "9 Cobblestone",
+      "4 Cobblestone",
+      "8 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Creeper",
+      "Zombie",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Plains",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Diamond Ore",
+      "Gold Ore",
+      "Emerald Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone",
+      "4 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Zombie Villager",
+      "Villager",
+      "Witch",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Swamp",
+      "Savanna",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Hoe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Diamond",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Wither",
+      "Enderman",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Pickaxe",
+      "Axe",
+      "Hoe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Redstone",
+      "Coal",
+      "Iron",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Skeleton",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Snowy Tundra",
+      "Plains",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Axe",
+      "Pickaxe",
+      "Sword",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Gold Ore",
+      "Diamond Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Blaze",
+      "Enderman",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Desert",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Axe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Emerald Ore",
+      "Diamond Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Zombie Villager",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Jungle",
+      "Snowy Tundra",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Pickaxe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Diamond",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Witch",
+      "Zombie Villager",
+      "Pillager",
+      "Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Swamp",
+      "Jungle",
+      "Desert",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Diamond",
+      "Iron",
+      "Lapis",
+      "Emerald"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Blaze",
+      "Ghast",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Shovel",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Redstone",
+      "Gold",
+      "Coal",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "4 Sticks",
+      "4 Wooden Planks",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Pillager",
+      "Witch",
+      "Villager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Swamp",
+      "Savanna",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Lapis",
+      "Coal",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "4 Wooden Planks",
+      "4 Sticks",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Spider",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Jungle",
+      "Swamp",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Shovel",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Coal",
+      "Redstone",
+      "Gold"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Creeper",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Taiga",
+      "Desert",
+      "Ice Plains",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Axe",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Gold",
+      "Redstone",
+      "Coal",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Wooden Planks",
+      "4 Sticks",
+      "2 Logs"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Skeleton",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Desert",
+      "Forest",
+      "Taiga",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Hoe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Coal",
+      "Redstone",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "9 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone",
+      "4 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Zombie",
+      "Skeleton",
+      "Spider",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Sword",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Emerald",
+      "Lapis",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Pillager",
+      "Witch",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Plains",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Sword",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Lapis",
+      "Diamond",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Zombie",
+      "Creeper",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Savanna",
+      "Desert",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Pickaxe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Gold Ore",
+      "Diamond Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Blaze",
+      "Enderman",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Desert",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Pickaxe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Lapis Ore",
+      "Gold Ore",
+      "Diamond Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "9 Cobblestone",
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Spider",
+      "Skeleton",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Swamp",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Axe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Coal",
+      "Lapis",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "2 Logs",
+      "4 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Taiga",
+      "Forest",
+      "Ice Plains",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Stick and 1 Coal",
+      "1 Charcoal",
+      "1 Wood and 1 Stick",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Jungle",
+      "Plains",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Hoe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Gold",
+      "Redstone",
+      "Iron",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Blaze",
+      "Enderman",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Forest",
+      "Desert",
+      "Taiga",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Pickaxe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Emerald",
+      "Lapis",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "2 Coal",
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Enderman",
+      "Blaze",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Forest",
+      "Desert",
+      "Taiga"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Sword",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Iron",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Zombie Villager",
+      "Pillager",
+      "Witch",
+      "Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Desert",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Zombie Villager",
+      "Pillager",
+      "Witch"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Jungle",
+      "Plains",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Sword",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Emerald",
+      "Diamond",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "4 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Forest",
+      "Taiga",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Coal",
+      "Redstone",
+      "Gold",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Enderman",
+      "Wither",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Desert",
+      "Taiga",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "9 Cobblestone",
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Witch",
+      "Pillager",
+      "Villager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Snowy Tundra",
+      "Jungle",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Diamond Ore",
+      "Lapis Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "2 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Spider",
+      "Zombie",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Jungle",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Diamond",
+      "Iron",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Pillager",
+      "Zombie Villager",
+      "Villager",
+      "Witch"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Taiga",
+      "Forest",
+      "Desert",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Sword",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Emerald Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "2 Coal",
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Wither",
+      "Blaze",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Pickaxe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Emerald Ore",
+      "Diamond Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Spider",
+      "Skeleton",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Swamp",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Sword",
+      "Shovel",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Diamond Ore",
+      "Lapis Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone",
+      "4 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Creeper",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Hoe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Lapis",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Creeper",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Forest",
+      "Ice Plains",
+      "Taiga",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Coal",
+      "Iron",
+      "Gold",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Forest",
+      "Ice Plains",
+      "Desert",
+      "Taiga"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Sword",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Lapis",
+      "Diamond",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Creeper",
+      "Skeleton",
+      "Spider",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Savanna",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Hoe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Coal",
+      "Lapis",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "6 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Skeleton",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Plains",
+      "Jungle",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Coal",
+      "Redstone",
+      "Gold",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "3 Wooden Planks",
+      "2 Logs",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Savanna",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Gold Ore",
+      "Lapis Ore",
+      "Diamond Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "8 Cobblestone",
+      "4 Cobblestone",
+      "6 Cobblestone",
+      "9 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Ghast",
+      "Wither",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Swamp",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Axe",
+      "Pickaxe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Emerald Ore",
+      "Diamond Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "2 Logs",
+      "3 Wooden Planks",
+      "4 Sticks",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Ghast",
+      "Enderman",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Swamp",
+      "Desert",
+      "Savanna",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Pickaxe",
+      "Shovel",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Lapis",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "2 Coal",
+      "1 Charcoal",
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Enderman",
+      "Ghast",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Savanna",
+      "Swamp",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Hoe",
+      "Sword",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Coal",
+      "Lapis",
+      "Redstone",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "6 Cobblestone",
+      "4 Cobblestone",
+      "9 Cobblestone",
+      "8 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Witch",
+      "Pillager",
+      "Villager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Desert",
+      "Swamp",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Lapis Ore",
+      "Emerald Ore",
+      "Gold Ore",
+      "Diamond Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Skeleton",
+      "Creeper",
+      "Zombie",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Taiga",
+      "Forest",
+      "Desert",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Hoe",
+      "Pickaxe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Witch",
+      "Zombie Villager",
+      "Villager",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Ice Plains",
+      "Desert",
+      "Taiga",
+      "Forest"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Pickaxe",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Coal",
+      "Gold",
+      "Iron",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal",
+      "1 Charcoal",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Enderman",
+      "Wither",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Swamp",
+      "Jungle",
+      "Savanna",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Hoe",
+      "Shovel",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Lapis",
+      "Iron",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "2 Logs",
+      "4 Wooden Planks",
+      "4 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Blaze",
+      "Wither",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Snowy Tundra",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Sword",
+      "Axe",
+      "Hoe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Shovel",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Lapis Ore",
+      "Diamond Ore",
+      "Gold Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "2 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Wither",
+      "Blaze",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Jungle",
+      "Savanna",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Sword",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Redstone",
+      "Lapis",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Blaze",
+      "Enderman",
+      "Ghast",
+      "Wither"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Savanna",
+      "Jungle",
+      "Swamp"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Pickaxe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Lapis",
+      "Diamond",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Blaze",
+      "Ghast",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Swamp",
+      "Desert",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Pickaxe",
+      "Axe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Diamond",
+      "Emerald",
+      "Iron",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Stick and 1 Coal",
+      "2 Coal",
+      "1 Wood and 1 Stick",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Creeper",
+      "Skeleton",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Swamp",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Sword",
+      "Axe",
+      "Pickaxe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Lapis",
+      "Diamond",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Zombie",
+      "Creeper",
+      "Spider"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Swamp",
+      "Desert",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Pickaxe",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Diamond Ore",
+      "Emerald Ore",
+      "Gold Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Zombie",
+      "Spider",
+      "Skeleton",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Jungle",
+      "Plains",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Hoe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Diamond",
+      "Iron",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal",
+      "1 Charcoal",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Pillager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Plains",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Pickaxe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Diamond",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What is required to craft a Furnace?",
+    "correct": "8 Cobblestone",
+    "options": [
+      "4 Cobblestone",
+      "8 Cobblestone",
+      "9 Cobblestone",
+      "6 Cobblestone"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Enderman",
+      "Wither",
+      "Blaze",
+      "Ghast"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Snowy Tundra",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Shovel",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Diamond Ore",
+      "Emerald Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick",
+      "1 Charcoal",
+      "2 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Pillager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Savanna",
+      "Swamp",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Sword",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Diamond",
+      "Lapis",
+      "Emerald"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Wither",
+      "Enderman",
+      "Ghast",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome spawns polar bears?",
+    "correct": "Ice Plains",
+    "options": [
+      "Forest",
+      "Taiga",
+      "Desert",
+      "Ice Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Shovel",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Emerald",
+      "Lapis",
+      "Diamond",
+      "Iron"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "2 Coal",
+      "1 Charcoal",
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Zombie Villager",
+      "Witch",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Swamp",
+      "Jungle",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Hoe",
+      "Axe",
+      "Sword",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Gold",
+      "Redstone",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "2 Logs",
+      "4 Wooden Planks",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Spider",
+      "Creeper",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome is home to Ocelots?",
+    "correct": "Jungle",
+    "options": [
+      "Plains",
+      "Swamp",
+      "Savanna",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Sword",
+      "Pickaxe",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Coal",
+      "Lapis",
+      "Redstone",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Wood and 1 Stick",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Enderman",
+      "Wither",
+      "Blaze"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Swamp",
+      "Savanna"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Redstone",
+      "Diamond",
+      "Coal",
+      "Lapis"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "2 Diamonds and 2 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 3 Sticks",
+      "3 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Zombie Villager",
+      "Villager",
+      "Witch",
+      "Pillager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Snowy Tundra",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Lapis",
+      "Diamond",
+      "Emerald"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "1 Charcoal",
+      "2 Coal",
+      "1 Stick and 1 Coal",
+      "1 Wood and 1 Stick"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Creeper",
+      "Zombie",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Desert",
+      "Jungle",
+      "Snowy Tundra",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Shovel",
+      "Hoe",
+      "Sword",
+      "Axe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Gold",
+      "Redstone",
+      "Iron",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "How do you craft a Diamond Pickaxe?",
+    "correct": "3 Diamonds and 2 Sticks",
+    "options": [
+      "3 Diamonds and 3 Sticks",
+      "3 Iron and 2 Sticks",
+      "3 Diamonds and 2 Sticks",
+      "2 Diamonds and 2 Sticks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Pillager",
+      "Villager",
+      "Zombie Villager",
+      "Witch"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Desert",
+      "Swamp",
+      "Savanna",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is best for chopping trees?",
+    "correct": "Axe",
+    "options": [
+      "Shovel",
+      "Axe",
+      "Pickaxe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Diamond",
+      "Lapis",
+      "Coal",
+      "Redstone"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob shoots arrows?",
+    "correct": "Skeleton",
+    "options": [
+      "Skeleton",
+      "Spider",
+      "Zombie",
+      "Creeper"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Jungle",
+      "Swamp",
+      "Savanna",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Shovel",
+      "Hoe",
+      "Axe",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Emerald Ore",
+      "Gold Ore",
+      "Diamond Ore",
+      "Lapis Ore"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Skeleton",
+      "Creeper",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Savanna",
+      "Desert",
+      "Swamp",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Hoe",
+      "Shovel",
+      "Sword",
+      "Pickaxe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore glows and drops dust?",
+    "correct": "Redstone",
+    "options": [
+      "Lapis",
+      "Redstone",
+      "Diamond",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "3 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Zombie",
+      "Spider",
+      "Creeper",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Plains",
+      "Desert",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Sword",
+      "Pickaxe",
+      "Shovel",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Lapis",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to make a Torch?",
+    "correct": "1 Stick and 1 Coal",
+    "options": [
+      "2 Coal",
+      "1 Wood and 1 Stick",
+      "1 Stick and 1 Coal",
+      "1 Charcoal"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "Which mob drops Ender Pearls?",
+    "correct": "Enderman",
+    "options": [
+      "Ghast",
+      "Wither",
+      "Blaze",
+      "Enderman"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Jungle",
+      "Desert",
+      "Plains",
+      "Snowy Tundra"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool is used to till soil?",
+    "correct": "Hoe",
+    "options": [
+      "Axe",
+      "Hoe",
+      "Shovel",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Redstone",
+      "Iron",
+      "Gold",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "3 Wooden Planks",
+      "2 Logs",
+      "4 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob trades with players?",
+    "correct": "Villager",
+    "options": [
+      "Villager",
+      "Witch",
+      "Pillager",
+      "Zombie Villager"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Plains",
+      "Snowy Tundra",
+      "Jungle",
+      "Desert"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "Which tool is used to mine stone faster?",
+    "correct": "Pickaxe",
+    "options": [
+      "Pickaxe",
+      "Hoe",
+      "Axe",
+      "Shovel"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is used to craft rails?",
+    "correct": "Iron",
+    "options": [
+      "Iron",
+      "Redstone",
+      "Gold",
+      "Coal"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Sticks",
+      "4 Wooden Planks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Creeper",
+      "Spider",
+      "Skeleton",
+      "Zombie"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "What biome has the most trees?",
+    "correct": "Jungle",
+    "options": [
+      "Swamp",
+      "Savanna",
+      "Desert",
+      "Jungle"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Pickaxe",
+      "Shovel",
+      "Hoe",
+      "Sword"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "Which ore is green and rare?",
+    "correct": "Emerald",
+    "options": [
+      "Iron",
+      "Lapis",
+      "Emerald",
+      "Diamond"
+    ]
+  },
+  {
+    "type": "crafting",
+    "question": "What do you need to craft a Crafting Table?",
+    "correct": "4 Wooden Planks",
+    "options": [
+      "4 Wooden Planks",
+      "4 Sticks",
+      "2 Logs",
+      "3 Wooden Planks"
+    ]
+  },
+  {
+    "type": "mob",
+    "question": "What mob explodes near players?",
+    "correct": "Creeper",
+    "options": [
+      "Spider",
+      "Zombie",
+      "Creeper",
+      "Skeleton"
+    ]
+  },
+  {
+    "type": "biome",
+    "question": "Which biome has the most snow?",
+    "correct": "Snowy Tundra",
+    "options": [
+      "Snowy Tundra",
+      "Desert",
+      "Jungle",
+      "Plains"
+    ]
+  },
+  {
+    "type": "tools",
+    "question": "What tool do you use to dig dirt quickly?",
+    "correct": "Shovel",
+    "options": [
+      "Shovel",
+      "Pickaxe",
+      "Sword",
+      "Hoe"
+    ]
+  },
+  {
+    "type": "ores",
+    "question": "What ore gives you diamonds?",
+    "correct": "Diamond Ore",
+    "options": [
+      "Gold Ore",
+      "Lapis Ore",
+      "Emerald Ore",
+      "Diamond Ore"
+    ]
+  }
+]

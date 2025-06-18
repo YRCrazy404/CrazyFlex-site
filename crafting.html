@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minecraft Food Cutter – CrazyFlex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      background-color: #1a1a1a;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+    }
+
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background: url('background.png') no-repeat center center;
+      background-size: cover;
+    }
+
+    #score, #highScore {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 24px;
+      z-index: 2;
+    }
+
+    #highScore {
+      top: 40px;
+    }
+
+    #hearts {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      z-index: 2;
+    }
+
+    .heart {
+      font-size: 24px;
+      margin-left: 4px;
+    }
+
+    #gameOver, #startScreen {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 32px;
+      text-align: center;
+      z-index: 3;
+      background-color: rgba(0,0,0,0.6);
+      padding: 20px;
+      border-radius: 12px;
+    }
+
+    button {
+      margin-top: 10px;
+      font-size: 18px;
+      padding: 12px 24px;
+      font-family: 'Poppins', sans-serif;
+      cursor: pointer;
+    }
+
+    #muteButton {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      z-index: 3;
+      background-color: rgba(0,0,0,0.5);
+      border: none;
+      color: white;
+      padding: 8px 12px;
+      font-size: 16px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="gameCanvas"></canvas>
+  <div id="score">Score: 0</div>
+  <div id="highScore">High Score: 0</div>
+  <div id="hearts"></div>
+  <button id="muteButton" onclick="toggleMusic()">🔊</button>
+
+  <div id="startScreen">
+    <div>Minecraft Food Cutter</div>
+    <button onclick="startGame()">Start Game</button>
+  </div>
+
+  <div id="gameOver" style="display:none">
+    <div>💥 Game Over!</div>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+
+  <audio id="sliceSound" src="slice.mp3"></audio>
+  <audio id="explodeSound" src="explode.mp3"></audio>
+  <audio id="bgMusic" src="music.mp3" loop></audio>
+
+  <script>
+    const canvas = document.getElementById('gameCanvas');
+    const ctx = canvas.getContext('2d');
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const scoreEl = document.getElementById('score');
+    const highScoreEl = document.getElementById('highScore');
+    const heartsEl = document.getElementById('hearts');
+    const startScreen = document.getElementById('startScreen');
+    const gameOverEl = document.getElementById('gameOver');
+    const muteButton = document.getElementById('muteButton');
+
+    const sliceSound = document.getElementById('sliceSound');
+    const explodeSound = document.getElementById('explodeSound');
+    const bgMusic = document.getElementById('bgMusic');
+
+    function loadImage(src) {
+      const img = new Image();
+      img.src = src;
+      return img;
+    }
+
+    const foods = [
+      { name: "apple", img: loadImage("apple.png") },
+      { name: "carrot", img: loadImage("carrot.png") },
+      { name: "bread", img: loadImage("bread.png") },
+      { name: "steak", img: loadImage("steak.png") },
+    ];
+
+    const creeper = { name: "creeper", img: loadImage("creeper.png") };
+
+    let gameObjects = [], particles = [], score = 0, lives = 3, gameRunning = false;
+    let highScore = localStorage.getItem('highScore') || 0;
+    highScoreEl.textContent = 'High Score: ' + highScore;
+    let slashes = [];
+    let lastSliceTime = 0;
+    let combo = 0;
+
+    function drawHearts() {
+      heartsEl.innerHTML = '';
+      for (let i = 0; i < 3; i++) {
+        const heart = document.createElement('span');
+        heart.className = 'heart';
+        heart.textContent = i < lives ? '❤️' : '🖤';
+        heartsEl.appendChild(heart);
+      }
+    }
+
+    function spawnObject() {
+      const isCreeper = Math.random() < 0.1;
+      const type = isCreeper ? creeper : foods[Math.floor(Math.random() * foods.length)];
+      const x = Math.random() * (canvas.width - 100);
+      const y = canvas.height;
+      const speed = 2 + Math.random() * 2 + score / 50;
+      gameObjects.push({ ...type, x, y, speed });
+    }
+
+    function updateObjects() {
+      gameObjects.forEach(obj => obj.y -= obj.speed);
+      gameObjects = gameObjects.filter(obj => obj.y > -80);
+    }
+
+    function drawObjects() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      gameObjects.forEach(obj => ctx.drawImage(obj.img, obj.x, obj.y, 100, 100));
+      drawSlashes();
+      drawParticles();
+    }
+
+    function drawSlashes() {
+      ctx.strokeStyle = 'red';
+      ctx.lineWidth = 4;
+      ctx.lineCap = 'round';
+      for (let slash of slashes) {
+        ctx.beginPath();
+        ctx.moveTo(slash.x1, slash.y1);
+        ctx.lineTo(slash.x2, slash.y2);
+        ctx.stroke();
+      }
+      slashes = [];
+    }
+
+    function drawParticles() {
+      particles.forEach(p => {
+        ctx.fillStyle = p.color;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        ctx.fill();
+      });
+      particles = particles.filter(p => (p.life-- > 0));
+    }
+
+    function createParticles(x, y) {
+      for (let i = 0; i < 10; i++) {
+        particles.push({
+          x: x,
+          y: y,
+          size: 4 + Math.random() * 4,
+          color: 'red',
+          dx: (Math.random() - 0.5) * 4,
+          dy: (Math.random() - 0.5) * 4,
+          life: 30
+        });
+      }
+    }
+
+    function endGame() {
+      gameRunning = false;
+      gameOverEl.style.display = 'block';
+      if (score > highScore) {
+        localStorage.setItem('highScore', score);
+        highScore = score;
+        highScoreEl.textContent = 'High Score: ' + highScore;
+      }
+    }
+
+    function startGame() {
+      score = 0;
+      lives = 3;
+      gameObjects = [];
+      gameRunning = true;
+      scoreEl.textContent = 'Score: 0';
+      drawHearts();
+      startScreen.style.display = 'none';
+      gameOverEl.style.display = 'none';
+      combo = 0;
+      bgMusic.play();
+      gameLoop();
+      setInterval(() => { if (gameRunning) spawnObject(); }, 700);
+    }
+
+    function restartGame() {
+      startGame();
+    }
+
+    function toggleMusic() {
+      if (bgMusic.paused) {
+        bgMusic.play();
+        muteButton.textContent = '🔊';
+      } else {
+        bgMusic.pause();
+        muteButton.textContent = '🔇';
+      }
+    }
+
+    function handleSlice(x1, y1, x2, y2) {
+      slashes.push({ x1, y1, x2, y2 });
+      let sliced = false;
+      for (let i = 0; i < gameObjects.length; i++) {
+        const obj = gameObjects[i];
+        if (x2 >= obj.x && x2 <= obj.x + 100 && y2 >= obj.y && y2 <= obj.y + 100) {
+          if (obj.name === "creeper") {
+            explodeSound.play();
+            createParticles(obj.x + 50, obj.y + 50);
+            endGame();
+          } else {
+            sliceSound.play();
+            score++;
+            combo++;
+            if (combo > 1) score += combo;
+            scoreEl.textContent = 'Score: ' + score;
+            createParticles(obj.x + 50, obj.y + 50);
+            gameObjects.splice(i, 1);
+          }
+          sliced = true;
+          break;
+        }
+      }
+      if (!sliced) combo = 0;
+    }
+
+    let lastTouch = null;
+    canvas.addEventListener('touchmove', (e) => {
+      if (!gameRunning) return;
+      e.preventDefault();
+      const rect = canvas.getBoundingClientRect();
+      const touch = e.touches[0];
+      const x = touch.clientX - rect.left;
+      const y = touch.clientY - rect.top;
+      if (lastTouch) handleSlice(lastTouch.x, lastTouch.y, x, y);
+      lastTouch = { x, y };
+    }, { passive: false });
+
+    canvas.addEventListener('touchend', () => { lastTouch = null; });
+
+    let lastMouse = null;
+    let mouseDown = false;
+
+    canvas.addEventListener('mousedown', (e) => {
+      if (!gameRunning) return;
+      mouseDown = true;
+      lastMouse = { x: e.offsetX, y: e.offsetY };
+    });
+
+    canvas.addEventListener('mousemove', (e) => {
+      if (!gameRunning || !mouseDown) return;
+      const x = e.offsetX;
+      const y = e.offsetY;
+      if (lastMouse) handleSlice(lastMouse.x, lastMouse.y, x, y);
+      lastMouse = { x, y };
+    });
+
+    canvas.addEventListener('mouseup', () => {
+      lastMouse = null;
+      mouseDown = false;
+    });
+
+    function gameLoop() {
+      if (!gameRunning) return;
+      updateObjects();
+      drawObjects();
+      requestAnimationFrame(gameLoop);
+    }
+  </script>
+</body>
+</html>
