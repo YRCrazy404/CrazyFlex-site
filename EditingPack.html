@@ -14,14 +14,6 @@
       --highlight: #4a47a3;
     }
 
-    body.dark {
-      --bg: #262638;
-      --text: #f0f0f0;
-      --link: #66aaff;
-      --section: #2c2c44;
-      --highlight: #4a47a3;
-    }
-
     * {
       margin: 0;
       padding: 0;
@@ -43,14 +35,14 @@
       color: white;
       text-align: center;
       padding: 30px 20px;
-      border-radius: 10px;
+      border-radius: 25px;
       margin-bottom: 30px;
       animation: slideInTop 0.8s ease-out;
     }
 
     h1 {
       font-size: 36px;
-      margin-bottom: 10px;
+      margin-bottom:10px;
     }
 
     .section {
@@ -58,8 +50,8 @@
       padding: 25px;
       border-radius: 10px;
       box-shadow: 0 0 12px rgba(0,0,0,0.1);
-      max-width: 900px;
-      margin: auto;
+      max-width: 1000px;
+      margin: 30px auto;
       animation: fadeIn 1.3s ease;
     }
 
@@ -80,24 +72,6 @@
 
     .section li {
       margin-bottom: 8px;
-    }
-
-    .toggle-btn {
-      display: block;
-      margin: 30px auto 10px;
-      padding: 10px 25px;
-      background-color: var(--highlight);
-      color: white;
-      border: none;
-      border-radius: 25px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: transform 0.3s;
-      animation: fadeIn 1.5s ease;
-    }
-
-    .toggle-btn:hover {
-      transform: scale(1.05);
     }
 
     a {
@@ -147,9 +121,7 @@
 
   <div class="section">
     <h2>What’s Inside?</h2>
-    <p>
-      This pack includes cool overlays, transitions, effects, fonts, and music I personally use in my videos! It’s beginner-friendly and works with CapCut, KineMaster, VN, and other popular mobile editing apps.
-    </p>
+    <p>This pack includes cool overlays, transitions, effects, fonts, and music I personally use in my videos! It’s beginner-friendly and works with CapCut, KineMaster, VN, and other popular mobile editing apps.</p>
     <ul>
       <li>🔥 Velocity & Shake Presets</li>
       <li>🎵 Background Music & Sound Effects</li>
@@ -158,19 +130,37 @@
       <li>🧩 PNG Overlays</li>
     </ul>
     <br />
-    <p>📥 <a href="#">Click Here to Download       <strong>[Coming Soon]</strong>  </a></p>
+    <p>📥 <a href="#">Click Here to Download <strong>[Coming Soon]</strong></a></p>
   </div>
-  
-  <script>
-    if (localStorage.getItem("theme") === "dark") {
-      document.body.classList.add("dark");
-    }
 
-    function toggleTheme() {
-      document.body.classList.toggle("dark");
-      localStorage.setItem("theme", document.body.classList.contains("dark") ? "dark" : "light");
-    }
-  </script>
+  <div class="section">
+    <h2>⭐ How to Use</h2>
+    <p>To get started, simply download the zip file and extract it. Import the music and effects directly into your editing app. You can also copy the fonts to your device and apply them in your projects.</p>
+    <ul>
+      <li>For CapCut & VN: Tap “Import” > Select the asset</li>
+      <li>For KineMaster: Use “Layer” > “Media” > Add overlays or transitions</li>
+      <li>Fonts: Use a font installer app or manually move to your phone’s font folder</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>📦 More Packs Coming Soon</h2>
+    <p>Stay tuned for upcoming packs like:</p>
+    <ul>
+      <li>🔊 Sound Effects Mega Pack</li>
+      <li>🌈 Aesthetic Filter Overlays</li>
+      <li>💥 Special Effects (Fire, Lightning, Explosions)</li>
+      <li>🧙‍♂️ VFX Pack: Magic + Particles</li>
+    </ul>
+    <p>Follow my channel and this site to get updates!</p>
+  </div>
+
+  <div class="section">
+    <h2>📞 Contact & Credits</h2>
+    <p>If you use this pack, tag me in your videos or comment on YouTube — I’d love to see your edits! 😄</p>
+    <p>📧 Contact: <a href="https://www.youtube.com/@CrazyFlex404">Comment US</a></p>
+    <p>🎨 Credits to various free resources and my own custom designs.</p>
+  </div>
 
 </body>
 </html>
